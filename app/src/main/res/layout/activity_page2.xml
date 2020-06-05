@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="30dp"
-    android:layout_margin="30dp"
     android:layout_gravity="center"
     tools:context=".page2"
     >
@@ -101,7 +100,7 @@
         android:id="@+id/Edit_signup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="10dp"
         android:text="가입하기"
         />
 

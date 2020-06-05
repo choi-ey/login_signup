@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="30dp"
-    android:layout_margin="30dp"
     android:layout_gravity="center"
     tools:context=".page4"
     >
@@ -60,26 +59,31 @@
         android:hint="회원가입시 입력한 이메일 기입"
         />
 
-    <Button
-        android:id="@+id/Edit_find_button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:text="확인"
-        />
-
     <TextView
         android:id="@+id/find_result"
         android:layout_width="match_parent"
         android:layout_height="41dp"
         android:layout_gravity="center_vertical"
-        android:text="ID: / PW:"
+        android:text="-"
         android:textSize="25dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="50dp"
         android:textColor="@color/colorPrimary"
         android:gravity="center_horizontal"
         />
 
+    <Button
+        android:id="@+id/Edit_find_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="확인" />
+
+    <Button
+    android:id="@+id/Edit_gofirst_button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+    android:text="처음으로 돌아가기" />
 
 
 </LinearLayout>

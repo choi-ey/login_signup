@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:layout_gravity="center"
+    tools:context=".page5"
+    >
+
+
+    <TextView
+        android:id="@+id/find_result"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_gravity="center_vertical"
+        android:text="--메인--"
+        android:textSize="35dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center_horizontal"
+        />
+
+
+
+</LinearLayout>
